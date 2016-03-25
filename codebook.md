@@ -1,10 +1,3 @@
----
-title: "codebook"
-author: "djuls-nyc"
-date: "March 24, 2016"
-output: html_document
----
-
 # Human Activity Recognition Using Smartphones
 Sub-dataset for Coursera Assignment (Getting and Cleaning Data)
 Version 1.0
@@ -19,11 +12,11 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 
 ##Steps Performed
-1/ Merged the training and the test sets to create one data set.
-2/ Extracted only the measurements on the mean and standard deviation for each measurement.
-3/ Used descriptive activity names to name the activities in the data set
-4/ Labelled the data set with descriptive variable names.
-5/ Created this dataset with the average of each variable for each activity and each subject.
+1/ Merged the training and the test sets to create one data set.     
+2/ Extracted only the measurements on the mean and standard deviation for each measurement.      
+3/ Used descriptive activity names to name the activities in the data set.      
+4/ Labelled the data set with descriptive variable names.      
+5/ Created this dataset with the average of each variable for each activity and each subject.     
 
 ##Resulting Dataset - Features
  [1] "Subject"                                        
@@ -88,12 +81,12 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 [60] "frequencyBodyGyroscopeStdZ"                     
 [61] "frequencyBodyAccelerometerMagnitudeMean"        
 [62] "frequencyBodyAccelerometerMagnitudeStd"         
-[63] "frequencyBodyBodyAccelerometerJerkMagnitudeMean"
-[64] "frequencyBodyBodyAccelerometerJerkMagnitudeStd" 
+[63] "frequencyBodyBodyAccelerometerJerkMagnitudeMean"  
+[64] "frequencyBodyBodyAccelerometerJerkMagnitudeStd"      
 [65] "frequencyBodyBodyGyroscopeMagnitudeMean"        
-[66] "frequencyBodyBodyGyroscopeMagnitudeStd"         
+[66] "frequencyBodyBodyGyroscopeMagnitudeStd"             
 [67] "frequencyBodyBodyGyroscopeJerkMagnitudeMean"    
-[68] "frequencyBodyBodyGyroscopeJerkMagnitudeStd"  
+[68] "frequencyBodyBodyGyroscopeJerkMagnitudeStd"    
 
 #Features Description:
 
