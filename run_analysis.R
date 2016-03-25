@@ -85,4 +85,4 @@ names(dataExtract) <- as.vector(sapply(names(dataExtract), cleanNames))
 
 tidyData <- aggregate(.~Subject+Activity, dataExtract, mean)
 
-write.csv(tidyData, "tidyData.csv")
+write.table(tidyData, "tidyData.txt", row.name=FALSE)
